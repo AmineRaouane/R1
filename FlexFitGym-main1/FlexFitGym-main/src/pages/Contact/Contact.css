@@ -1,0 +1,110 @@
+/* Contact banner */
+.contact-banner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: rgb(0, 0, 0, 0.8) url(../images/contact-banner-bg.jpg) no-repeat
+    center center/cover;
+  background-blend-mode: darken;
+  z-index: -1;
+}
+
+/* Contact column */
+.contact-col {
+  height: 240px;
+  width: 320px;
+  background-color: rgb(42, 36, 41);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Contact column icon */
+.contact-col .col-icon {
+  padding: 1rem;
+  border-radius: 100%;
+  background-color: orangered;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Contact column heading */
+.contact-col .col-heading {
+  text-transform: uppercase;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Contact column text */
+.contact-col .col-text {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Form container */
+.form-container {
+  background-color: rgb(42, 36, 41);
+  padding: 1rem 0;
+}
+
+/* Contact us row and column */
+.contact-us-row .contact-us-col {
+  width: 524px;
+}
+
+/* Form row and form group */
+.form-row .form-group {
+  width: 50%;
+}
+
+/* Message form container */
+.form-container {
+  width: 100%;
+}
+
+/* Message form group */
+#message-form .form-group {
+  margin: 0.5rem;
+}
+
+/* Message form input controls */
+#message-form .form-group .input-controls {
+  height: 42px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+/* Send button */
+#send-btn {
+  background-color: orangered;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Map container */
+.contact-col .map-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Address map */
+.map-container .address-map {
+  height: 420px;
+  width: 100%;
+}
+
+@media screen and (max-width: 554px) {
+  .form-row {
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .form-row .form-group{
+    width: 100%;
+      }
+}

@@ -1,0 +1,61 @@
+/* Team section Style */
+
+.team {
+  padding: 2rem 0;
+}
+
+/* Column Styling */
+.team-row .team-col {
+  position: relative;
+  width: 345px;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+/* Image Styling */
+.team-col .team-img img {
+  width: 100%;
+  transition: all 0.4s ease-in;
+}
+
+/* Hover Effects */
+.team-col:hover > .team-overlay {
+  scale: 1;
+}
+
+.team-col:hover > .team-img img {
+  scale: 1.2;
+}
+
+/* Overlay Styling */
+.team-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  scale: 0;
+  transition: all 0.4s ease-in-out;
+  background-color: rgba(50, 50, 50, 0.6);
+}
+
+/* Team Social Handles Icons */
+.team-handles .handle-icon {
+  margin: 10px;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+/* Column Desc Styling */
+.team-col .team-desc {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 16px;
+  background-color: rgba(50, 50, 50, 0.6);
+  background-blend-mode: darken;
+}

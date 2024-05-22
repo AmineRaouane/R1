@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  background-color: rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: orangered;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(253, 253, 253);
+}
+
+/* Custom Classes */
+
+.container {
+  width: 95%;
+  margin: 1rem 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Classes for banners */
+.banner {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-heading h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}

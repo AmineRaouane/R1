@@ -1,0 +1,52 @@
+/* Styling for the classes banner */
+.classes-banner::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8) url(../images/classes-banner-bg.jpg) no-repeat center center/cover;
+  background-blend-mode: darken;
+  z-index: -1;
+}
+
+/* Styling for the week bar */
+.weekbar {
+  background-color: rgb(42, 36, 41);
+  padding: 15px;
+  width: 80%;
+}
+
+/* Styling for the week list */
+.week-list > .list-item {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  cursor: pointer;
+  width: 12%;
+  text-align: center;
+}
+
+.week-list{
+  width: 100%;
+}
+
+/* Styling for the hovered and active week list items */
+.week-list > .list-item:hover{
+  background-color: rgb(108, 32, 4);
+}
+
+.week-list > .list-item.active {
+  background-color: orangered;
+}
+
+/* Styling for the class column */
+.class-col {
+  height: 240px;
+  width: 320px;
+  background-color: rgb(42, 36, 41);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem;
+  transition: all 1s ease-in-out;
+}
+

@@ -1,0 +1,12 @@
+/* About banner Style */
+
+.about-banner::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8) url("../images/about-banner-bg.jpg") no-repeat
+    center center/cover;
+  background-blend-mode: darken;
+  z-index: -1;
+}

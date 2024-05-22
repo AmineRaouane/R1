@@ -1,0 +1,110 @@
+/* Header styles */
+.header {
+  height: 75px;
+  background-color: rgb(24 24 27);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+/* Menu bar styles */
+.menubar {
+  padding: 10px;
+  color: #ff4500;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 1px solid orangered;
+  border-radius: 8px;
+  display: none;
+  cursor: pointer;
+}
+
+/* Navbar styles */
+.navbar {
+  transition: all 0.4s ease-in-out;
+}
+
+/* Brand styles */
+.brand {
+  color: #ff4500;
+}
+
+/* Navigation link styles */
+.navlink {
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.navlink:hover,
+.navlink.active {
+  color: #ff4500;
+  font-weight: bold;
+}
+
+/* Join us button styles */
+.header-btn .joinus-btn {
+  background-color: #ff4500;
+  color: #ffffff;
+}
+
+/* Responsive Navbar styles */
+@media screen and (max-width: 1024px) {
+  .menubar {
+    display: block;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 76px;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(24 24 27);
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.089);
+  }
+
+  .nav-active {
+    height: 50%;
+  }
+
+  .navlist {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navlist .list-item {
+    text-align: center;
+    width: 100%;
+  }
+
+  .navlink {
+    width: 100%;
+    margin: 1px 0 !important;
+  }
+
+  .navlink:hover,
+  .navlink.active {
+    border-left: 2px solid #ff4500;
+    border-right: 2px solid #ff4500;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .menubar {
+    font-size: 1.2rem;
+  }
+
+  .brand a h1 {
+    font-size: 1.2rem;
+  }
+
+  .header-btn button {
+    font-size: 12px;
+    padding: 10px;
+  }
+}

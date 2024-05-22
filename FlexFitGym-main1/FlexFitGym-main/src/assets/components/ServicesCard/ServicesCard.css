@@ -1,0 +1,36 @@
+/* Services Cards Styles*/
+
+/* Service column */
+.services-row .services-col {
+  height: 380px;
+  width: 360px;
+  background-color: rgb(220, 220, 220);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Icon Style*/
+.services-col .col-icon img {
+  display: block;
+  margin: auto;
+  height: 120px;
+  padding: 0.5rem;
+}
+
+/* Heading Style*/
+.services-col .col-heading h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/* Text Style */
+.services-col .col-text p {
+  text-align: center;
+}
+
+/* Link Style */
+.services-col .col-link a {
+  color: orangered;
+}
